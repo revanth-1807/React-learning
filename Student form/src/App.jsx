@@ -76,9 +76,15 @@
 // }
 
 
-import Stoppropogation from './components/Stoppropogation';
+// import Stoppropogation from './components/Stoppropogation';
+// export default function App() {
+//   return (
+//     <Stoppropogation />
+//   )
+// }
+
+
+import D from './components/Default';
 export default function App() {
-  return (
-    <Stoppropogation />
-  )
+    return <D />
 }
