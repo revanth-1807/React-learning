@@ -62,8 +62,23 @@
 // }
 
 
-import Toolbar3 from './components/Toolbar3';
+// import Toolbar3 from './components/Toolbar3';
 
+// export default function App() {
+//   return (<Toolbar3 /> );
+// }
+
+// import Propagation from './components/Propagation';
+// export default function App() {
+//   return (
+//     <Propagation />
+//   )
+// }
+
+
+import Stoppropogation from './components/Stoppropogation';
 export default function App() {
-  return (<Toolbar3 /> );
+  return (
+    <Stoppropogation />
+  )
 }
