@@ -13,8 +13,10 @@ export default function Use_state() {
     let s=sculptureList[ind];
     return(
         <div>
+            <div className='a'>
             <p>{ind}/11</p>
             <button onClick={()=>handleClick()}>Next</button><br /><br />
+            </div>
             <img 
                 src={s.url}
                 alt={s.alt}
@@ -23,7 +25,9 @@ export default function Use_state() {
             />
             <br />
             <button onClick={()=>sh()}>{show?"hide":"show"}</button><br />
+            <div className='a'>
             {show? s.description:""}
+            </div>
         </div>
     );
 }

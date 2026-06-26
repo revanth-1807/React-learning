@@ -93,7 +93,7 @@ import './App.css'
 import Use_state from './components/Use_state';
 export default function App() {
     return(
-        <div class='container'>
+        <div className='container'>
             <Use_state />
             <Use_state />
         </div>
