@@ -84,7 +84,18 @@
 // }
 
 
-import D from './components/Default';
+// import D from './components/Default';
+// export default function App() {
+//     return <D />
+// }
+
+import './App.css'
+import Use_state from './components/Use_state';
 export default function App() {
-    return <D />
+    return(
+        <div class='container'>
+            <Use_state />
+            <Use_state />
+        </div>
+    )
 }
