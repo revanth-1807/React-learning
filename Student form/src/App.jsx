@@ -89,13 +89,22 @@
 //     return <D />
 // }
 
-import './App.css'
-import Use_state from './components/Use_state';
+// import './App.css'
+// import Use_state from './components/Use_state';
+// export default function App() {
+//     return(
+//         <div className='container'>
+//             <Use_state />
+//             <Use_state />
+//         </div>
+//     )
+// }
+
+
+
+import Reactrender from './components/Reactrender';
 export default function App() {
     return(
-        <div className='container'>
-            <Use_state />
-            <Use_state />
-        </div>
-    )
+        <Reactrender />
+    );
 }
