@@ -102,9 +102,25 @@
 
 
 
-import Reactrender from './components/Reactrender';
+// import Reactrender from './components/Reactrender';
+// export default function App() {
+//     return(
+//         <Reactrender />
+//     );
+// }
+
+
+// import ReactBatching from './components/ReactBatching';
+// export default function App() {
+//     return(
+//         <ReactBatching />
+//     );
+// }
+
+
+import Cart from './components/Cart';
 export default function App() {
     return(
-        <Reactrender />
+        <Cart />
     );
 }
